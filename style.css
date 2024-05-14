@@ -133,3 +133,33 @@ p {
   text-align: center;
   padding: 60px;
 }
+
+@media (max-width:800px){
+  body, .app{
+    text-align: center;
+  }
+
+  .img-fluid.rounded{
+    display:none;
+  }
+
+  .navbar{
+    text-align: left;
+  }
+
+  h1{
+    font-size: 65px;
+  }
+
+  h2{
+    font-size:38px;
+  }
+
+  h3{
+    font-size:20px;
+    padding-top:5px;
+  }
+
+}
+
+  
